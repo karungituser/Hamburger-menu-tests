@@ -1,0 +1,27 @@
+.about-image-sm {
+  width: 80%;
+  max-width: 458px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-image-sm {
+    display: none;
+  }
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .about-image-lg {
+    display: none;
+  }
+}
+.about-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
